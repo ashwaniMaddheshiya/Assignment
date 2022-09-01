@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background: url("./bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 300px;
+    min-height: 390px;
+    border: 1px solid;
+    transform: translate(-90%,-5%);
+    position: absolute;
+    border: 2px solid;
+    background-color: #8b8b8b;
+    
+}
+
+.upperbar{
+    border-bottom: 1px solid;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+
+#search{
+    line-height: 28px;
+    width: 80%;
+    margin: 2.5px 4px;
+    /* background-color: aquamarine; */
+    
+}
+
+
+
+
+
+.btn{
+    margin-left: 3px;
+    width: 12%;
+    text-align: center;
+    border-left: 1px solid;
+
+}
+
+button{
+    font-size: 35px;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgba(179, 179, 179, 0.776);
+}
+
+.btn:active {
+    transform: scale(0.98); 
+    /* scaling button to 0.98 of its original size */
+    box-shadow: 3px 2px 22px 1px rgba(1, 1, 1, 0.20);
+
+}
+
+.itemList{
+    margin: 0;
+    padding: 0;
+}
+
+#myTable{
+    list-style-type: none;
+    width: 100.8%;
+    border-collapse: collapse;
+    margin-top: -1px;
+    margin-right: -1px;
+    margin-left: -1px;
+}
+
+td{
+    border: 1px solid;
+    padding: 10px;
+}
